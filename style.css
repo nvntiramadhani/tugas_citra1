@@ -1,0 +1,86 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Bagian header */
+header {
+    background-color: #8d0d4d;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+/* Bagian utama */
+main {
+    width: 85%;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+/* Setiap bagian */
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: #243b55;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #3280c9;
+    padding-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section ul {
+    padding-left: 25px;
+}
+
+/* Bagian footer */
+footer {
+    background-color: #8d0d4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 4px;
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    main {
+        width: 92%;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
